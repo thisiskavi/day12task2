@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .resume {
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          grid-gap: 20px;
+          padding: 20px;
+          background-color: gainsboro;
+        }
+        
+        .section {
+          border: 3px solid black;
+          padding: 20px;
+        }
+        
+        .name {
+          grid-column: 1 / 3;
+          text-align: center;
+          font-size: 32px;
+          margin-bottom: 20px;
+          background-color: grey;
+        }
+        
+        .contact {
+          grid-column: 1 / 2;
+          background-color: grey;
+        }
+        
+        .summary {
+          grid-column: 2 / 3;
+          background-color: grey;
+        }
+        
+        .experience {
+          grid-column: 1 / 3;
+          background-color: grey;
+        }
+        
+        .education {
+          grid-column: 1 / 3;
+          background-color: grey;
+        }
+        
+        .skills {
+          grid-column: 1 / 3;
+          background-color: grey;
+        }
+
+        </style>
+        
+</head>
+<body>
+    <div class="resume">
+        <div class="section name">
+          ABCDEF
+        </div>
+        <div class="section contact">
+          <h2>Contact Information:</h2>
+          Email: ABC@example.com
+          <br>
+          Phone: 123-456-7890
+        </div>
+        <div class="section summary">
+          <h2>Summary:</h2>
+          Highly skilled web developer with a passion for creating efficient and user-friendly applications.
+        </div>
+        <div class="section experience">
+          <h2>Experience:</h2>
+          <p>Company A - Web Developer (2019-2023)</p>
+          <p>Company B - Software Engineer (2016-2018)</p>
+        </div>
+        <div class="section education">
+          <h2>Education:</h2>
+          <p>Bachelor of Science in Computer Science, XYZ University (2012-2016)</p>
+        </div>
+        <div class="section skills">
+          <h2>Skills:</h2>
+          HTML, CSS, JavaScript, React, Node.js, MongoDB
+        </div>
+      </div>
+      
+</body>
+</html>
